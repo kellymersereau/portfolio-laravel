@@ -1,8 +1,63 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);body {
-  background-color: #f5f8fa;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  color: #636b6f;
+@font-face {
+  font-family: 'ProximaNova_Thin';
+  src: local("ProximaNova_Thin"), local("ProximaNova_Thin"), url("/public/fonts/ProximaNova_Thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova_Light';
+  src: local("ProximaNova_Light"), local("ProximaNova_Light"), url("/public/fonts/ProximaNova_Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova_Reg';
+  src: local("ProximaNova_Reg"), local("ProximaNova_Reg"), url("/public/fonts/ProximaNova_Reg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova_Reg_It';
+  src: local("ProximaNova_Reg_It"), local("ProximaNova_Reg_It"), url("/public/fonts/ProximaNova_Reg_It.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ProximaNova_Bold';
+  src: local("ProximaNova_Bold"), local("ProximaNova_Bold"), url("/public/fonts/ProximaNova_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova_Sbold';
+  src: local("ProximaNova_Sbold"), local("ProximaNova_Sbold"), url("/public/fonts/ProximaNova_Sbold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova_Xbold';
+  src: local("ProximaNova_Xbold"), local("ProximaNova_Xbold"), url("/public/fonts/ProximaNova_Xbold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  font-family: "ProximaNova_Thin", sans-serif;
+  color: #2D2E2E;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: "ProximaNova_Sbold", sans-serif;
+  color: #6C3449;
+  font-size: 40px;
+  line-height: 46px;
 }
 

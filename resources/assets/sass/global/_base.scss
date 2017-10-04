@@ -1,0 +1,14 @@
+@import "variables";
+
+p {
+	font-family: $thin-font;
+	color: $p-color;
+	font-size: 16px;
+	line-height: 20px;
+}
+h1 {
+	font-family: $s-bold-font;
+	color: $h1-color;
+	font-size: 40px;
+	line-height: 46px;
+}
