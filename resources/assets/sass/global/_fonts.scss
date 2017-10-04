@@ -1,60 +1,47 @@
 @font-face {
-	font-family: 'ProximaNova_Thin';
-	src:  local('ProximaNova_Thin'),
-	local('ProximaNova_Thin'),
-	url('/public/fonts/ProximaNova_Thin.otf') format('opentype');
-	font-weight: normal;
+	font-family: 'WorkSans-ExtraLight';
+	src:  local('WorkSans-ExtraLight'),
+	url('/fonts/WorkSans-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'ProximaNova_Light';
-	src:  local('ProximaNova_Light'),
-	local('ProximaNova_Light'),
-	url('/public/fonts/ProximaNova_Light.otf') format('opentype');
-	font-weight: normal;
+	font-family: 'WorkSans-Light';
+	src:  local('WorkSans-Light'),
+	url('/fonts/WorkSans-Light.ttf') format('truetype');
+	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'ProximaNova_Reg';
-	src:  local('ProximaNova_Reg'),
-	local('ProximaNova_Reg'),
-	url('/public/fonts/ProximaNova_Reg.otf') format('opentype');
-	font-weight: normal;
+	font-family: 'WorkSans-Thin';
+	src:  local('WorkSans-Thin'),
+	url('/fonts/WorkSans-Thin.ttf') format('truetype');
+	font-weight: 100;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'ProximaNova_Reg_It';
-	src:  local('ProximaNova_Reg_It'),
-	local('ProximaNova_Reg_It'),
-	url('/public/fonts/ProximaNova_Reg_It.otf') format('opentype');
-	font-weight: normal;
-	font-style: italic;
+	font-family: 'WorkSans-Regular';
+	src:  local('WorkSans-Regular'),
+	url('/fonts/WorkSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: 'ProximaNova_Bold';
-	src:  local('ProximaNova_Bold'),
-	local('ProximaNova_Bold'),
-	url('/public/fonts/ProximaNova_Bold.otf') format('opentype');
-	font-weight: bold;
+	font-family: 'WorkSans-Medium';
+	src:  local('WorkSans-Medium'),
+	url('/fonts/WorkSans-Medium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
+
 @font-face {
-	font-family: 'ProximaNova_Sbold';
-	src:  local('ProximaNova_Sbold'),
-	local('ProximaNova_Sbold'),
-	url('/public/fonts/ProximaNova_Sbold.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'ProximaNova_Xbold';
-	src:  local('ProximaNova_Xbold'),
-	local('ProximaNova_Xbold'),
-	url('/public/fonts/ProximaNova_Xbold.otf') format('opentype');
-	font-weight: bold;
+	font-family: 'WorkSans-SemiBold';
+	src:  local('WorkSans-SemiBold'),
+	url('/fonts/WorkSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
 	font-style: normal;
 }

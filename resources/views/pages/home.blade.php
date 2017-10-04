@@ -4,5 +4,10 @@
 
 
 @section('content')
-	<h1>This is my body content. This is a test for my portfolio page.</h1>
+	<h1 class="center-text">
+		kelly mersereau
+	</h1>
+	<h3 class="center-text">
+		Full Stack Developer
+	</h3>
 @endsection
